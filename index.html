@@ -56,7 +56,13 @@
             Effective Solutions for Your Business
           </h1>
 
-          <button type="button" class="btn-banner">Order Service</button>
+          <button type="button" class="btn-banner"  data-modal-open>Order Service</button>
+           <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <p>text</p>
+              <button data-model-close>close</button>
+            </div>
+           </div>
         </div>
       </section>
 
@@ -215,5 +221,6 @@
         </p>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
