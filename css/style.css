@@ -385,6 +385,9 @@ rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   text-align: center;
   font-family: "Roboto", sans-serif;
   padding: 188px 0;
+  max-width: 1440px;
+  background-position: center;
+  background-size: cover;
 }
 
 .section-banner-title {
@@ -415,6 +418,7 @@ rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   height: 56px;
   border-radius: 4px;
   margin: 0 auto;
+  background-color: 250ms cubic-bezier(0.4,0,0.2,1);
 }
 
 .btn-list .btn-nav {
