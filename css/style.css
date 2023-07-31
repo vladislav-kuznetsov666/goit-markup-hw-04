@@ -47,6 +47,8 @@ ul {
 
 .list {
   list-style: none;
+  position: relative;
+  color: #404bbf;
   
 }
 
