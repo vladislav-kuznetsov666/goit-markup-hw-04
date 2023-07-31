@@ -47,13 +47,12 @@ ul {
 
 .list {
   list-style: none;
-  position: relative;
-  color: #404bbf;
-  
 }
 
 .link {
   text-decoration: none;
+  position: relative;
+  color: #404bbf;
 }
 
 .container {
