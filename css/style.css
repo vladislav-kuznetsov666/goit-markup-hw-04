@@ -491,6 +491,16 @@ rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   padding: 120px 0;
 }
 
+.features-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .third-title {
   font-size: 36px;
   line-height: 1.11;
