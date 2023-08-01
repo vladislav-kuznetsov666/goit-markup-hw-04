@@ -682,6 +682,10 @@ ul {
 
 /* Footer */
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
 
 .footer-logo-wrapper {
   margin-right: 120px;
