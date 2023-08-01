@@ -683,14 +683,9 @@ ul {
 /* Footer */
 
 
-.footer-container-logo {
-display: flex;
-align-items: baseline;
-margin-left: 156px;
-}
-
 .footer-logo-wrapper {
   margin-right: 120px;
+  margin-left: 156px;
 }
 
 .footer-socials-wrapper {
