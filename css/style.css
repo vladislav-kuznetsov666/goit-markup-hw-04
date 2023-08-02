@@ -84,6 +84,16 @@ ul {
 .menu {
   position: relative;
   color: #404bbf;
+  color: var(--color-main-text);
+  display: block;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .special::after {
@@ -92,7 +102,7 @@ ul {
   border-radius: 2px;
   width: 48px;
   height: 4px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   position: absolute;
   bottom: -1px;
 }
@@ -103,7 +113,7 @@ ul {
   border-radius: 2px;
   width: 66px;
   height: 4px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   position: absolute;
   bottom: -1px;
 }
@@ -164,16 +174,7 @@ ul {
   margin-right: 76px;
 }
 
-.address-section .list .link {
-  color: var(--color-secondary-text);
-  font-family: "Raleway", sans-serif;
-  text-decoration: none;
-  font-size: 16px;
-  line-height: 1.5;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-  font-weight: 400;
-}
+
 
 .list .link:hover {
   color: #404bbf;
@@ -277,15 +278,6 @@ ul {
 }
 
 .list .link {
-  color: var(--color-main-text);
-  display: block;
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
   padding: 24px 0;
 }
 
@@ -529,10 +521,18 @@ ul {
   font-style: normal;
 }
 
-.address-section .list .link {
+
+
+.contacts-link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   text-transform: lowercase;
+  color: var(--color-secondary-text);
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list {
@@ -737,7 +737,6 @@ ul {
 
 .footer-logo-wrapper {
   margin-right: 120px;
-  margin-left: 156px;
 }
 
 .footer-socials-wrapper {
@@ -825,7 +824,6 @@ ul {
 }
 
 .close-btn {
-  fill: #e7e9fc;
   position: absolute;
   top: 24px;
   right: 24px;
@@ -854,15 +852,15 @@ ul {
   border: none;
 }
 
+.close-btn:hover .close-icon {
+  fill: #ffffff;
+}
+
+.close-btn:focus .close-icon {
+  fill: #ffffff;
+}
+
 .close-icon {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.close-icon:hover {
-  fill: #ffffff;
-}
-
-.close-icon:focus {
-  fill: #ffffff;
 }
