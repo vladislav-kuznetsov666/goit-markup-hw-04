@@ -17,6 +17,9 @@
     <title>WEBSTUDIO</title>
   </head>
   <body style="font-family: 'Roboto', sans-serif">
+
+<!-- Header  -->
+
     <header class="header">
       <div class="container">
         <nav class="header-navigation">
@@ -561,12 +564,12 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <p>text</p>
+        <button type="button" class="close-btn" data-modal-close>
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
       </div>
-      <button type="button" class="close-btn" data-modal-close>
-        <svg class="close-icon" width="8" height="8">
-          <use href="./images/icons.svg#icon-close"></use>
-        </svg>
-      </button>
     </div>
 
     <script src="./js/modal.js"></script>
