@@ -111,7 +111,7 @@ ul {
   bottom: -1px;
 }
 
-.special-1 {
+.special-first {
   color: #404bbf;
 }
 
@@ -128,6 +128,7 @@ ul {
 
 .header .container {
   display: flex;
+  align-items: center;
 }
 
 .header-navigation {
