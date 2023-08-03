@@ -115,7 +115,7 @@ ul {
   color: #404bbf;
 }
 
-.special-1::after {
+.special-first::after {
   content: '';
   left: 0;
   border-radius: 2px;
